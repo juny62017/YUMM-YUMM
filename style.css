@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=VT323&display=swap');
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: #7f1d1d;
+  color: #f3f4f6;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+.wrap { width: min(100% - 32px, 1280px); margin: auto; }
+.nav { padding: 8px 0; background: #991b1b; color: #93c5fd; }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; }
+.nav h1 { margin: 0; color: #60a5fa; font-size: 30px; }
+.links { display: flex; gap: 14px; }
+.links a { color: inherit; text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+.hero { position: sticky; top: 0; z-index: 5; padding: 24px; background: #991b1b; text-align: center; }
+.hero h1 { margin: 0; font-size: 30px; }
+main { padding: 40px 0; }
+section { margin-bottom: 40px; }
+.intro { font-size: 24px; }
+h2 { margin: 0 0 20px; font: 60px/1 "VT323", monospace; }
+.blue { color: #93c5fd; }
+.food-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.food-card { padding: 24px; background: #854d0e; border-radius: 8px; }
+.food-card h3 { margin-top: 0; }
+.food-card img { width: 100%; height: 192px; object-fit: cover; border-radius: 4px; }
+.food-card p { color: #d1d5db; }
+.reviews { display: grid; gap: 16px; }
+.reviews article { padding: 16px; background: #be185d; border-radius: 8px; }
+.reviews h3, .reviews p { margin: 0; }
+.reviews p { color: #86efac; }
+.about { padding: 16px; background: #1e3a8a; border-radius: 8px; }
+.faq details { margin: 12px 0; border: 1px solid #eab308; border-radius: 4px; }
+.faq summary { padding: 12px 16px; background: #6b21a8; color: #fde047; cursor: pointer; }
+.faq details p { margin: 0; padding: 12px 16px; background: #581c87; }
+.top { color: #000; background: #eab308; text-decoration: none; }
+.top:hover { background: #facc15; }
+footer { padding: 24px; background: #991b1b; text-align: center; }
